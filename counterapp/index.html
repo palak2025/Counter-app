@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Counter App</title>
+</head>
+<body>
+    
+    <div class="flex flex-col items-center justify-center w-[100vw] h-[100vh] bg-gradient-to-r from-indigo-900 ...">
+        <h1 class="">Increment And Decrement</h1>
+        <div class="flex bg-white justify-evenly items-center w-48 leading-5 mt-8 pt-5 pb-5 ">
+            <button onclick="increment()" class="border-r-2 " >
+                <i class="fa-solid fa-plus mr-3"></i>
+            </button>
+            <div id="counter" class="font-bold" >0</div>
+            <button onclick="decrement()" class="border-l-2">
+                <i class="fa-solid fa-minus ml-3 "></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
